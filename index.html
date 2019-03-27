@@ -5,45 +5,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/custom.css">
     <title>Strik Motors</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-                HEADER
-            <div id="logo">
+    <header id="toposite">
+        <div id="topositeint" class="container">
+            <div id="logo" class="wow slideInLeft">
                 <h1 class="logo_text">Strik Motors</h1>
                 <a href="#"><img class="logo_img" src="img/logo-small.jpg" alt=""></a>
             </div>
-            <div id="menu">
-                MENU
+            <div class="menu">
+                <nav class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="menuMobile">
+                        <div>menu</div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="quemsomos.html">Quem Somos</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
 
-    <section class="section">
-        <article class="container">
-            BANNER
+    <section id="banner" class="section">
+        <article class="container wow rollIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h1>BANNER</h1>
+            <p>DESTAQUES DO MES</p>
         </article>
     </section>
 
-    <main>
-        <section class="section">
-            <article class="container">
-                CONTEUDO PRINCIPAL
+    <main id="corposite">
+        <section id="principal" class="container wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+            <article class="box">
+                <h1>Quem Somos</h1>
+                <img src="img/desenvolvimento-software.jpeg" alt="">
+                <p>A T.T.I. Trevisan Tecnologia Informática, fundada em 01/07/1986, tem se destacado no desenvolvimento
+                    de software
+                    ERP - gestão empresarial, manutenção de computador, notebook, impressora, no-break, visita técnica
+                    na empresa ou
+                    residência do cliente, comercialização de equipamentos de informática, projeto completo de
+                    infraestrutura de
+                    rede, servidores windows e linux, desktop, roteadores.</p>
+                <p>Possuimos também setor de identificação confeccionando crachás e carteirinhas com códigos de barra em
+                    PVC para
+                    controle de acesso.</p>
+                <p>Para atender os objetivos da T.T.I. os seus profissionais têm formação Técnica Eletrônica,
+                    Especialistas
+                    certificados em Linux e Microsoft e a nível de Pós Graduação na USP.</p>
+                <p>Venha conhecer nossos produtos e serviços em nossa sede própria na<address>Av. Zelina 1253, São Paulo
+                        – SP, Cep
+                        03143-003,</address> ou solicite através do telefone (011) 2341-9299 a presença de um consultor
+                    para melhor
+                    assessorá-lo.</p>
             </article>
         </section>
     </main>
 
-    <footer>
-        <section class="section">
-            <article class="container">
-                RODAPE
-            </article>
-        </section>
+    <!--RODAPESITE-->
+    <footer id="rodapesite">
+        <div class="container flexcolumn">
+            <div id="rodapeitens">
+                <div class="rodapeatendimento wow flipInX" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <h1>Horário de funcionamento:</h1>
+                    <p>Seg. à Sex. - 09:00h às 19:00h</p>
+                    <p>Sábado - 09:00h às 16:00h</p>
+                    <p>Domingo - Apenas com agendamento</p>
+                </div>
+                <div class="rodapeendereco wow flipInX" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <h1>LOJAS:</h1>
+                    <p>LOJA TATUAPÉ - Rua Gonçalo Nunes, 56 - Tatuapé - São Paulo/SP - CEP:03407-000</p>
+                    <p>LOJA CARRÃO - Av. Conselheiro Carrão, 1022 - Vila Carrão - São Paulo/SP - CEP:03403-001</p>
+                </div>
+                <div class="rodapecontato wow flipInX" data-wow-duration="1s" data-wow-delay="0.9s">
+                    <h1>Contato:</h1>
+                    <p>Telefone 11 97484-8419</p>
+                    <p>Telefone 11 2296-6280</p>
+                    <p>Telefone 11 2296-6278</p>
+                    <a href="contato@ttitrevisan.com.br">contato@strikmotors.com.br</a>
+                </div>
+            </div>
+            <div id="copyright">
+                Copyright © 2019 Trevisan Tecnologia Informática.
+            </div>
+        </div>
     </footer>
+    <script src="js/jscustom.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
+
 </html>
