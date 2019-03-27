@@ -1,37 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*RESET*/
+* {margin: 0;padding: 0;box-sizing: border-box;}
+
 /*CLASSES AUXILIARES*/
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 90%;
-    margin-bottom: 20px;
-}
-.section {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
+.container{margin:0 auto;max-width: 1280px;width: 95%;background: #eee;}
+.section{margin-top:1rem;padding-top: 1rem;padding-bottom: 1rem; background: red;}
+/*VARIAVEIS*/
+
 
 /*CUSTOMIZAÇÃO*/
-#corposite {background: #f1f1f1f1;
-}
-/*MEDIA*/
+body {background: green;}
+
+/*MEDIAS*/
+/*MEDIA MOBILE*/
 @media only screen and (max-width: 600px) {
-    #corposite {background: green;}
-    
 }
 
+/*MEDIA TABLETS*/
 @media only screen and (min-width: 601px) {
     .container {
-        width: 85%;
+        width: 90%;
     }
 }
-
+/*MEDIA HD*/
 @media only screen and (min-width: 993px) {
     .container {
-        width: 70%;
+        width: 80%;
     }
 }
