@@ -10,6 +10,10 @@
 /*CUSTOMIZAÇÃO*/
 body {background: green;}
 
+/*LOGO*/
+.logo_text{display:none;}
+.logo_img{width: 150px;}
+
 /*MEDIAS*/
 /*MEDIA MOBILE*/
 @media only screen and (max-width: 600px) {
