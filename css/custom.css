@@ -3,7 +3,9 @@
 
 /*CLASSES AUXILIARES*/
 .container{margin:0 auto;max-width: 1280px;width: 95%;}
-.section{margin-top: 0.3rem;padding-top: 1rem;padding-bottom: 1rem; background: red;}
+.section{margin-top: 0.5rem;padding-top: 1rem;padding-bottom: 1rem; background: #e1e1e1;}
+.section h1{margin-bottom: 1rem;}
+.section p{text-align: justify;text-indent: 2rem;}
 /*VARIAVEIS*/
 
 
@@ -25,7 +27,7 @@ img{
 
 /*LOGO*/
 .logo_text{display:none;}
-.logo_img{}
+
 
 /*NAV*/
 .menu {
@@ -78,6 +80,7 @@ nav a:hover {
     line-height: 1.6;
     display: flex;
     justify-content: center;
+    margin-top: 0.5rem;
 }
     #rodapesite a{
         text-decoration: none;
@@ -88,7 +91,6 @@ nav a:hover {
 
     #rodapesite h1{
         border-bottom: 1px dashed blue;
-        width: 50%;
         font-size: 1.5rem;
     }
     .rodapeendereco,.rodapecontato,.rodapeatendimento{
