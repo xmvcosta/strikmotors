@@ -37,19 +37,37 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 5px #333;
+    margin-bottom: 0.5rem;
+    transition: 0.5s transform;
 }
-.showcasebox h2 {
+.showcasebox:hover{
+    transform: scale(1.1);
+    transition: 0.5s transform;
+}
+.showcasebox-title {
+    width:100%;
+}
+.showcasebox h2{
+    text-align: center;
+    background: #333;
+    color: #fff;
     text-transform: uppercase;
-    background: red;
+}
 
-}
-.showcasebox ul{
-    list-style: none;
-}
 .showcaseboxint{
     display: flex;
     flex-wrap: wrap;
     background: yellow;
+    font-weight: bold;
+    width:100%;
+}
+.showcasebox ul{
+    list-style: none;
+}
+.showcaseboxint i{
+    color: blue;
 }
 .showcaseboxint ul{
     margin: 1rem;
@@ -58,7 +76,10 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     margin: 0.5rem;
 }
 
-
+.quemsomos i{
+    font-size: 2rem;
+    margin-right:1rem; 
+}
 /*RODAPESITE*/
 #rodapesite{
     background-color:#1e1e1e;
