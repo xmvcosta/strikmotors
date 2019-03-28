@@ -32,8 +32,20 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 .mm_line{height:3px;background-color:#fff;width: 80%;margin: 2px;}
 
 /*SHOWCASE*/
+.showcase h1{
+    text-align: center;
+    background: red;
+    text-shadow: 3px 3px 3px #000;
+
+}
+.showcase-container{
+    display: flex;
+    flex-wrap: wrap;
+    /*background: green;*/
+    justify-content: center;
+}
 .showcasebox{
-    background: green;
+    background: #0984e3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,11 +53,14 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     box-shadow: 2px 2px 5px #333;
     margin-bottom: 0.5rem;
     transition: 0.5s transform;
+    flex:1;
+    margin: 0.3rem;
 }
 .showcasebox:hover{
     transform: scale(1.1);
     transition: 0.5s transform;
 }
+
 .showcasebox-title {
     width:100%;
 }
@@ -54,26 +69,33 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     background: #333;
     color: #fff;
     text-transform: uppercase;
+    text-shadow: 3px 3px 3px #000;
 }
 
 .showcaseboxint{
     display: flex;
     flex-wrap: wrap;
-    background: yellow;
+    /*background: yellow;*/
     font-weight: bold;
+    color:#e1e1e1;
     width:100%;
+    text-shadow: 1px 1px 1px #000;
 }
 .showcasebox ul{
     list-style: none;
 }
 .showcaseboxint i{
-    color: blue;
+    color: green;
+    font-size: 2rem;
+    margin:0 1rem;
 }
 .showcaseboxint ul{
     margin: 1rem;
 }
 .showcaseboxint li{
     margin: 0.5rem;
+    display: flex;
+    align-items: center;
 }
 
 .quemsomos i{
@@ -144,12 +166,12 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     .container {
         width: 90%;
     }
+    
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-    
-    
+   
     #rodapeitens{
         display: flex;
     }
@@ -163,4 +185,5 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     .container {
         width: 80%;
     }
+    
 }
