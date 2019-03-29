@@ -3,15 +3,15 @@
 
 /*CLASSES AUXILIARES*/
 .container{margin:0 auto;max-width: 1280px;width: 95%;}
-.section{margin-top:0.5rem;padding-top: 1rem;padding-bottom: 1rem; background: #e1e1e1;}
-.section h1{border-bottom:3px dotted #3b5998;display: inline-block;margin-bottom:1rem;padding: 0.5rem;color:#FFFFFF;background: #3b5998;}
+.section{margin-top:0.5rem;padding-bottom: 1rem; background: #e1e1e1;}
+.section h1{border-bottom:3px dotted #3b5998;display: inline-block;;padding: 0.5rem;color:#FFFFFF;background: #3b5998;}
 .section p{text-align:justify;text-indent: 2rem;}
 .wrapper{display:flex;flex-wrap: wrap;justify-content: center; background: green;}
 .fixed{position:fixed;bottom:0;right:0;width:58%;border: 2px solid #fff;background: green;color:#FFFFFF;font-size: 1.4rem;padding: 0.3rem;}
 .chk{color:green !important;text-shadow: 2px 2px 2px #fff;}
 
 /*REDESSOCIAIS*/
-.redessociais-container{display: flex;justify-content: center;}
+.redessociais-container{display: flex;justify-content: center;background-color: #fff;}
 .fa-facebook {color: #3b5998;}
 .fa-instagram {color:#c32aa3;}
 .fa-twitter {color:#1da1f2;}
