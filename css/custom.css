@@ -7,7 +7,13 @@
 .section h1{margin-bottom: 1rem;background-color: #555;color:#fff;padding-top: 1rem;padding-bottom: 1rem;}
 .section img{}
 .section p{text-align: justify;text-indent: 2rem;}
-/*VARIAVEIS*/
+.fixed{position:fixed;bottom:0;right:0;width:58%;border: 2px solid #fff;background: green;color:#FFFFFF;font-size: 1.4rem;padding: 0.3rem;}
+.fa-facebook {color: #3b5998;background: #fff;}
+.fa-instagram {color:#c32aa3;background: #fff;}
+.fa-twitter {color:#1da1f2;background: #fff;}
+.fa-youtube {color:#FF0000;background: #fff;}
+/*REDESSOCIAIS*/
+.redessociais-container{display: flex;justify-content: center;}
 
 
 /*CUSTOMIZAÇÃO*/
@@ -60,6 +66,10 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     transform: scale(1.1);
     transition: 0.5s transform;
 }
+.showcasebox img{
+    border: 1px solid blue;
+    
+}
 
 .showcasebox-title {
     width:100%;
@@ -81,14 +91,21 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     width:100%;
     text-shadow: 1px 1px 1px #000;
 }
+
 .showcasebox ul{
     list-style: none;
 }
 .showcaseboxint i{
-    color: green;
+    color: #333;
     font-size: 2rem;
     margin:0 1rem;
 }
+
+.chk{
+    color:green !important;
+    text-shadow: 2px 2px 2px #fff;
+}
+
 .showcaseboxint ul{
     margin: 1rem;
 }
@@ -100,7 +117,8 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
 
 .quemsomos i{
     font-size: 2rem;
-    margin-right:1rem; 
+    margin:1rem; 
+    
 }
 /*RODAPESITE*/
 #rodapesite{
@@ -114,6 +132,7 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     display: flex;
     justify-content: center;
     margin-top: 0.5rem;
+    
 }
     #rodapesite a{
         text-decoration: none;
@@ -123,11 +142,12 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     }
 
     #rodapesite h1{
-        border-bottom: 1px dashed blue;
+        border-bottom: 3px dashed #3b5998;
         font-size: 1.5rem;
     }
     .rodapeendereco,.rodapecontato,.rodapeatendimento{
         padding: 5px;
+        margin-bottom: 0.5rem;
         flex:1;
     }
     #copyright{
@@ -136,6 +156,7 @@ nav .active a,nav a:hover{background-color:#39aae1;color:#FFFFFF;}
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0.5rem;
     }
 
 /*MEDIAS*/
