@@ -13,7 +13,7 @@
 /*REDESSOCIAIS*/
 .redessociais-container{display: flex;justify-content: center;background-color: #fff;}
 .fa-facebook {color: #3b5998;}
-.fa-instagram {color:#c32aa3;}
+.fa-instagram {color:#fff;background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);}
 .fa-twitter {color:#1da1f2;}
 .fa-youtube {color:#FF0000;}
 
