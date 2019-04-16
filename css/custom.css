@@ -11,11 +11,11 @@
 .chk{color:green !important;text-shadow: 2px 2px 2px #fff;}
 
 /*REDESSOCIAIS*/
-.redessociais-container{display: flex;justify-content: center;background-color: #fff;}
-.fa-facebook {color: #3b5998;}
+.redessociais-container{display: flex;justify-content: center;}
+.fa-facebook {color: #3b5998;background-color: #fff;}
 .fa-instagram {color:#fff;background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);}
 .fa-twitter {color:#1da1f2;}
-.fa-youtube {color:#FF0000;}
+.fa-youtube {color:#FF0000;background-color: #fff;}
 
 /*CUSTOMIZAÇÃO*/
 body {background: #34495e;font-family: Verdana, Geneva, Tahoma, sans-serif;}
